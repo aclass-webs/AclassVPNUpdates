@@ -1,9 +1,9 @@
 {
   "product": "Aclass VPN Client",
-  "latestVersion": "0.4.6",
-  "installerUrl": "https://github.com/aclass-webs/AclassVPNUpdates/releases/download/v0.4.6/AclassVPNClientSetup.exe",
-  "sha256": "A2D71B680DC70F8DF401165825A6BE67CEDB098C2139FBB3B152E418BD0F669A",
+  "latestVersion": "0.4.7",
+  "installerUrl": "https://github.com/aclass-webs/AclassVPNUpdates/releases/download/v0.4.7/AclassVPNClientSetup.exe",
+  "sha256": "6FBCF296E825DFEA3044E6002D28D293BE2B5E00E4C9E682B055A240251DEB07",
   "mandatory": false,
-  "releaseNotes": "Canal publico de actualizacion automatica para Aclass VPN Client.",
-  "publishedAt": "2026-07-08T10:49:46Z"
+  "releaseNotes": "Actualizacion de imagen corporativa: nuevo icono de aplicacion y nuevo logo de cabecera.",
+  "publishedAt": "2026-07-08T11:14:15Z"
 }

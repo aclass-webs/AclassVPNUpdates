@@ -1,7 +1,7 @@
 {
   "product": "Aclass VPN Client",
   "latestVersion": "0.4.6",
-  "installerUrl": "",
+  "installerUrl": "https://github.com/aclass-webs/AclassVPNUpdates/releases/download/v0.4.6/AclassVPNClientSetup.exe",
   "sha256": "A2D71B680DC70F8DF401165825A6BE67CEDB098C2139FBB3B152E418BD0F669A",
   "mandatory": false,
   "releaseNotes": "Canal publico de actualizacion automatica para Aclass VPN Client.",

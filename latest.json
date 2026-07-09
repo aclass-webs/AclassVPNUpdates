@@ -1,9 +1,9 @@
 {
   "product": "Aclass VPN Client",
-  "latestVersion": "0.4.9",
-  "installerUrl": "https://github.com/aclass-webs/AclassVPNUpdates/releases/download/v0.4.9/AclassVPNClientSetup.exe",
-  "sha256": "0A95828AC024004588A4BDA0F6387B0AB4DAE4D9B9E0C173A25334C5EEFBB19A",
+  "latestVersion": "0.4.10",
+  "installerUrl": "https://github.com/aclass-webs/AclassVPNUpdates/releases/download/v0.4.10/AclassVPNClientSetup.exe",
+  "sha256": "D4366715948F4D89A0930A80730DC85E8ADCABDE2FEC5AD861C41C44C635B3CC",
   "mandatory": false,
-  "releaseNotes": "Instalador con driver TAP-Windows firmado incluido para equipos limpios. Diagnostico ampliado con adapter-install.log y salida de pnputil.",
-  "publishedAt": "2026-07-09T11:25:00Z"
+  "releaseNotes": "La app se registra para iniciar con la sesion de Windows mediante tarea programada y respaldo Run. Arranca minimizada en bandeja y ejecuta Autoconectar al abrir si esta configurado. Diagnostico ampliado con startup-install.log.",
+  "publishedAt": "2026-07-09T11:48:00Z"
 }

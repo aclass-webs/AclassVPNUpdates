@@ -1,9 +1,9 @@
 {
   "product": "Aclass VPN Client",
-  "latestVersion": "0.4.11",
-  "installerUrl": "https://github.com/aclass-webs/AclassVPNUpdates/releases/download/v0.4.11/AclassVPNClientSetup.exe",
-  "sha256": "2BBDD6CB5CE45DC5F20895C1FB2BAA1983BE58B43587E7C5C9C51482C69B0DB9",
+  "latestVersion": "0.4.12",
+  "installerUrl": "https://github.com/aclass-webs/AclassVPNUpdates/releases/download/v0.4.12/AclassVPNClientSetup.exe",
+  "sha256": "683EF5E3F4A3EFF4356F8C193302A586BED1110200CAE3BCB8C7A015EA114380",
   "mandatory": false,
-  "releaseNotes": "Corrige el inicio con Windows. La opcion de arranque queda marcada por defecto, no hereda el estado roto de 0.4.10 y se crean tres mecanismos compatibles W10/W11: tarea programada, HKLM Run y acceso directo en Inicio comun. El cliente evita instancias duplicadas.",
-  "publishedAt": "2026-07-09T13:30:00Z"
+  "releaseNotes": "Corrige el relanzado tras actualizar desde la app. En updates silenciosos el instalador vuelve a abrir Aclass VPN Client minimizado para que pueda autoconectar sin que el usuario lo abra manualmente.",
+  "publishedAt": "2026-07-09T13:55:00Z"
 }

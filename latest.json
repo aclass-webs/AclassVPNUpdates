@@ -1,9 +1,9 @@
 {
   "product": "Aclass VPN Client",
-  "latestVersion": "0.4.12",
-  "installerUrl": "https://github.com/aclass-webs/AclassVPNUpdates/releases/download/v0.4.12/AclassVPNClientSetup.exe",
-  "sha256": "683EF5E3F4A3EFF4356F8C193302A586BED1110200CAE3BCB8C7A015EA114380",
+  "latestVersion": "0.4.13",
+  "installerUrl": "https://github.com/aclass-webs/AclassVPNUpdates/releases/download/v0.4.13/AclassVPNClientSetup.exe",
+  "sha256": "D73E97914BFC1BB0E2FF842C4D452250DE41082DACC8EC10A5A2A92285CAC768",
   "mandatory": false,
-  "releaseNotes": "Corrige el relanzado tras actualizar desde la app. En updates silenciosos el instalador vuelve a abrir Aclass VPN Client minimizado para que pueda autoconectar sin que el usuario lo abra manualmente.",
-  "publishedAt": "2026-07-09T13:55:00Z"
+  "releaseNotes": "Corrige definitivamente la creacion del acceso directo de inicio en updates silenciosos. El instalador repara Startup aunque venga desde una version antigua sin /TASKS=startup y el updater nuevo fuerza esa tarea en futuras actualizaciones.",
+  "publishedAt": "2026-07-09T14:15:00Z"
 }

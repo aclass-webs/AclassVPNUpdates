@@ -1,9 +1,9 @@
 {
   "product": "Aclass VPN Client",
-  "latestVersion": "0.4.10",
-  "installerUrl": "https://github.com/aclass-webs/AclassVPNUpdates/releases/download/v0.4.10/AclassVPNClientSetup.exe",
-  "sha256": "D4366715948F4D89A0930A80730DC85E8ADCABDE2FEC5AD861C41C44C635B3CC",
+  "latestVersion": "0.4.11",
+  "installerUrl": "https://github.com/aclass-webs/AclassVPNUpdates/releases/download/v0.4.11/AclassVPNClientSetup.exe",
+  "sha256": "2BBDD6CB5CE45DC5F20895C1FB2BAA1983BE58B43587E7C5C9C51482C69B0DB9",
   "mandatory": false,
-  "releaseNotes": "La app se registra para iniciar con la sesion de Windows mediante tarea programada y respaldo Run. Arranca minimizada en bandeja y ejecuta Autoconectar al abrir si esta configurado. Diagnostico ampliado con startup-install.log.",
-  "publishedAt": "2026-07-09T11:48:00Z"
+  "releaseNotes": "Corrige el inicio con Windows. La opcion de arranque queda marcada por defecto, no hereda el estado roto de 0.4.10 y se crean tres mecanismos compatibles W10/W11: tarea programada, HKLM Run y acceso directo en Inicio comun. El cliente evita instancias duplicadas.",
+  "publishedAt": "2026-07-09T13:30:00Z"
 }

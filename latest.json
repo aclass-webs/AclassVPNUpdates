@@ -1,9 +1,9 @@
 {
   "product": "Aclass VPN Client",
-  "latestVersion": "0.4.8",
-  "installerUrl": "https://github.com/aclass-webs/AclassVPNUpdates/releases/download/v0.4.8/AclassVPNClientSetup.exe",
-  "sha256": "85F05250667F7E0B1EAA84F9B827BA8EE7B7056FBD133FA235D2CB64D331A238",
+  "latestVersion": "0.4.9",
+  "installerUrl": "https://github.com/aclass-webs/AclassVPNUpdates/releases/download/v0.4.9/AclassVPNClientSetup.exe",
+  "sha256": "0A95828AC024004588A4BDA0F6387B0AB4DAE4D9B9E0C173A25334C5EEFBB19A",
   "mandatory": false,
-  "releaseNotes": "Instalador self-contained: ya no requiere .NET 8 instalado. Mejora mensajes para usuario ya activo y adaptador VPN no disponible.",
-  "publishedAt": "2026-07-09T11:03:13Z"
+  "releaseNotes": "Instalador con driver TAP-Windows firmado incluido para equipos limpios. Diagnostico ampliado con adapter-install.log y salida de pnputil.",
+  "publishedAt": "2026-07-09T11:25:00Z"
 }

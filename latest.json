@@ -4,6 +4,6 @@
   "installerUrl": "https://github.com/aclass-webs/AclassVPNUpdates/releases/download/v0.4.14/AclassVPNClientSetup.exe",
   "sha256": "D087A5B2C0DE7C1EF1A880989EC7E538D569390ACA9D98883F25CE76067971BF",
   "mandatory": false,
-  "releaseNotes": "Corrige la desconexion y reconexion que se producia cada hora en servidores que cierran la sesion durante la renegociacion TLS de OpenVPN. El ajuste reneg-sec 0 se aplica solo al perfil runtime temporal y no modifica el perfil .ovpn importado.",
+  "releaseNotes": "Desactiva la renegociacion TLS horaria iniciada por el cliente mediante reneg-sec 0 en el perfil runtime temporal. La validacion confirma que servidores con un temporizador propio de 3600 segundos pueden seguir ordenando el cierre y requieren correccion del lado servidor.",
   "publishedAt": "2026-07-15T07:43:47Z"
 }

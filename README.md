@@ -14,3 +14,7 @@ https://raw.githubusercontent.com/aclass-webs/AclassVPNUpdates/main/latest.json
 ```
 
 Cada instalador publicado debe validarse con SHA256 desde el manifest.
+
+Versión actual: `0.4.16`.
+
+Release: https://github.com/aclass-webs/AclassVPNUpdates/releases/tag/v0.4.16

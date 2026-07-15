@@ -4,6 +4,6 @@
   "installerUrl": "https://github.com/aclass-webs/AclassVPNUpdates/releases/download/v0.4.15/AclassVPNClientSetup.exe",
   "sha256": "8D9F9B2A94474A228D73CECCB30509059263128040E5E22257669DF3512394C1",
   "mandatory": false,
-  "releaseNotes": "HOTFIX recomendado: corrige las desconexiones durante la reautenticacion TLS. Se aplica automaticamente a cualquier perfil importado, elimina auth-nocache solo de la copia runtime, respeta el .ovpn original y conserva sus directivas reneg-sec.",
+  "releaseNotes": "HOTFIX parcial: mejora la reautenticacion TLS eliminando auth-nocache solo de la copia runtime y respetando el .ovpn original. La validacion prolongada confirma que aun puede producirse un cierre periodico, actualmente en investigacion.",
   "publishedAt": "2026-07-15T09:17:34Z"
 }

@@ -4,6 +4,6 @@
   "installerUrl": "https://github.com/aclass-webs/AclassVPNUpdates/releases/download/v0.4.15/AclassVPNClientSetup.exe",
   "sha256": "8D9F9B2A94474A228D73CECCB30509059263128040E5E22257669DF3512394C1",
   "mandatory": false,
-  "releaseNotes": "Corrige la desconexion horaria eliminando auth-nocache de la copia runtime para que OpenVPN conserve las credenciales durante la reautenticacion TLS. Se respeta reneg-sec del perfil original y se validaron tres renegociaciones consecutivas sin perdida de conexion.",
+  "releaseNotes": "HOTFIX recomendado: corrige las desconexiones durante la reautenticacion TLS. Se aplica automaticamente a cualquier perfil importado, elimina auth-nocache solo de la copia runtime, respeta el .ovpn original y conserva sus directivas reneg-sec.",
   "publishedAt": "2026-07-15T09:17:34Z"
 }

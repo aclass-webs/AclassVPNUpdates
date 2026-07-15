@@ -1,9 +1,9 @@
 {
   "product": "Aclass VPN Client",
-  "latestVersion": "0.4.14",
-  "installerUrl": "https://github.com/aclass-webs/AclassVPNUpdates/releases/download/v0.4.14/AclassVPNClientSetup.exe",
-  "sha256": "D087A5B2C0DE7C1EF1A880989EC7E538D569390ACA9D98883F25CE76067971BF",
+  "latestVersion": "0.4.15",
+  "installerUrl": "https://github.com/aclass-webs/AclassVPNUpdates/releases/download/v0.4.15/AclassVPNClientSetup.exe",
+  "sha256": "8D9F9B2A94474A228D73CECCB30509059263128040E5E22257669DF3512394C1",
   "mandatory": false,
-  "releaseNotes": "Desactiva la renegociacion TLS horaria iniciada por el cliente mediante reneg-sec 0 en el perfil runtime temporal. La validacion confirma que servidores con un temporizador propio de 3600 segundos pueden seguir ordenando el cierre y requieren correccion del lado servidor.",
-  "publishedAt": "2026-07-15T07:43:47Z"
+  "releaseNotes": "Corrige la desconexion horaria eliminando auth-nocache de la copia runtime para que OpenVPN conserve las credenciales durante la reautenticacion TLS. Se respeta reneg-sec del perfil original y se validaron tres renegociaciones consecutivas sin perdida de conexion.",
+  "publishedAt": "2026-07-15T09:17:34Z"
 }

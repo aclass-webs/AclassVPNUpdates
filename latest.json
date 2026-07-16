@@ -1,9 +1,9 @@
 {
   "product": "Aclass VPN Client",
-  "latestVersion": "0.4.16",
-  "installerUrl": "https://github.com/aclass-webs/AclassVPNUpdates/releases/download/v0.4.16/AclassVPNClientSetup.exe",
-  "sha256": "15DF11679CEB184576ED0BC4097025FE98114A3AADCB38FAC64706366BA9E6A5",
+  "latestVersion": "0.4.17",
+  "installerUrl": "https://github.com/aclass-webs/AclassVPNUpdates/releases/download/v0.4.17/AclassVPNClientSetup.exe",
+  "sha256": "F72E882E6BD9FE5E6C8445311CBB35BE768173B7E019285833A5EAC955113989",
   "mandatory": false,
-  "releaseNotes": "HOTFIX recomendado: elimina el temporizador TLS horario iniciado por el cliente, conserva la duracion durante renovaciones remotas breves y evita que errores del parser de OpenVPN terminen el servicio. En MikroTik afectados debe alinearse tambien reneg-sec en el servidor para eliminar el microcorte fisico.",
-  "publishedAt": "2026-07-15T15:42:14Z"
+  "releaseNotes": "HOTFIX recomendado: migra la conexion principal al driver OpenVPN DCO para evitar el corte de renegociacion observado con TAP. Mantiene un adaptador TAP propio como fallback automatico para perfiles incompatibles e incluye drivers firmados para Windows 10 y Windows 11.",
+  "publishedAt": "2026-07-16T10:45:00Z"
 }

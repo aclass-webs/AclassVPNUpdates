@@ -1,9 +1,9 @@
 {
   "product": "Aclass VPN Client",
-  "latestVersion": "0.4.18",
-  "installerUrl": "https://github.com/aclass-webs/AclassVPNUpdates/releases/download/v0.4.18/AclassVPNClientSetup.exe",
-  "sha256": "16CAB285D9B6127FF0A426887D90096EDAFD78BBEF07CBE6573840FD3F06486F",
+  "latestVersion": "0.4.19",
+  "installerUrl": "https://github.com/aclass-webs/AclassVPNUpdates/releases/download/v0.4.19/AclassVPNClientSetup.exe",
+  "sha256": "475DAA580EBBC86DCB4483E0C21BB12AAF8C1A5217D07A2CE0703EE20F7A56EB",
   "mandatory": false,
-  "releaseNotes": "HOTFIX recomendado: DCO pasa a ser el unico transporte soportado y se elimina TAP. La aplicacion conserva reneg-sec del perfil original, incluyendo el valor habitual 3600, y rechaza perfiles incompatibles con un mensaje claro.",
-  "publishedAt": "2026-07-16T11:30:00Z"
+  "releaseNotes": "HOTFIX recomendado: el supervisor deja que OpenVPN recupere internamente los rekeys durante 120 segundos, evita reinicios duplicados del health check y conserva la duracion logica de la conexion.",
+  "publishedAt": "2026-07-17T08:35:25Z"
 }

@@ -1,9 +1,9 @@
 {
   "product": "Aclass VPN Client",
-  "latestVersion": "0.4.22",
-  "installerUrl": "https://github.com/aclass-webs/AclassVPNUpdates/releases/download/v0.4.22/AclassVPNClientSetup.exe",
-  "sha256": "F5493F8A6EEABE8FFFF00BA5CE7D5C9AE44E487B6F45BFEF97C6E981C90607DA",
+  "latestVersion": "0.4.23",
+  "installerUrl": "https://github.com/aclass-webs/AclassVPNUpdates/releases/download/v0.4.23/AclassVPNClientSetup.exe",
+  "sha256": "058DC82A697651FF74CCC612848CE426B12B8AE62912080891702FAB9890803D",
   "mandatory": false,
-  "releaseNotes": "HOTFIX recomendado: elimina el bucle horario de RouterOS forzando reneg-sec 0 solo en runtime, corrige la supervision por PID y muestra la duracion real de la sesion.",
-  "publishedAt": "2026-07-20T13:08:31Z"
+  "releaseNotes": "HOTFIX recomendado: corrige la recuperacion DCO tras una caida UDP, evita altas consecutivas cuando RouterOS cambia la IP y mantiene intactos los perfiles importados.",
+  "publishedAt": "2026-07-20T22:44:43Z"
 }

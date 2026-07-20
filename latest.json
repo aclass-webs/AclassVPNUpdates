@@ -1,9 +1,9 @@
 {
   "product": "Aclass VPN Client",
-  "latestVersion": "0.4.19",
-  "installerUrl": "https://github.com/aclass-webs/AclassVPNUpdates/releases/download/v0.4.19/AclassVPNClientSetup.exe",
-  "sha256": "475DAA580EBBC86DCB4483E0C21BB12AAF8C1A5217D07A2CE0703EE20F7A56EB",
+  "latestVersion": "0.4.20",
+  "installerUrl": "https://github.com/aclass-webs/AclassVPNUpdates/releases/download/v0.4.20/AclassVPNClientSetup.exe",
+  "sha256": "DEE6732893EC1246061C4101C7CAF73287AEE118B38DD0425A56858FD2683117",
   "mandatory": false,
-  "releaseNotes": "HOTFIX recomendado: el supervisor deja que OpenVPN recupere internamente los rekeys durante 120 segundos, evita reinicios duplicados del health check y conserva la duracion logica de la conexion.",
-  "publishedAt": "2026-07-17T08:35:25Z"
+  "releaseNotes": "HOTFIX recomendado: renegociacion TLS adaptativa, cierre notificado si RouterOS no completa el rekey, Management Interface confirmada y reparacion del inicio con Windows.",
+  "publishedAt": "2026-07-20T08:49:54Z"
 }
